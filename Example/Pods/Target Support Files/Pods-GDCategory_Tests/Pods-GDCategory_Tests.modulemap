@@ -1,0 +1,6 @@
+framework module Pods_GDCategory_Tests {
+  umbrella header "Pods-GDCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

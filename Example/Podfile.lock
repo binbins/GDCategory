@@ -1,0 +1,16 @@
+PODS:
+  - GDCategory (0.1.0)
+
+DEPENDENCIES:
+  - GDCategory (from `../`)
+
+EXTERNAL SOURCES:
+  GDCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDCategory: 809238a9cd50a685651545a698d171deb7bc98ec
+
+PODFILE CHECKSUM: 4efe77c5475312bb467c3819f4f76f476ba6e758
+
+COCOAPODS: 1.2.0

@@ -7,6 +7,8 @@
 //
 
 #import "GDViewController.h"
+@import GDCategory;
+
 
 @interface GDViewController ()
 
@@ -17,8 +19,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [self testCategory];
 }
+
+- (void)testCategory {
+    
+    //实例方法，通过响应者链的方法来拿到当前view的视图控制器
+     UIViewController *parentViewCtrl = [self.view baseViewController];
+    
+    //类方法，通过递归的方式拿到屏幕最靠上的控制器
+    UIViewController *topCtrl = [UIViewController currentViewController];
+    
+    //实例方法，字符串转为字典或者数组
+    NSString *anyString = @"true";
+    
+    NSLog(@"%@ %@ %@, %@, %d", parentViewCtrl, topCtrl, [anyString toNSArray], [anyString toNSDictionary], [anyString toBOOL]);
+}
+
 
 - (void)didReceiveMemoryWarning
 {
