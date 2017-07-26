@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GDCategory_Example' do
+  pod 'GDCategory', :path => '../'
+
+  target 'GDCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
