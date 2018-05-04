@@ -7,7 +7,7 @@
 //
 
 #import "GDViewController.h"
-@import GDCategory;
+#import <GDCategory/GDCategory.h>
 
 
 @interface GDViewController ()

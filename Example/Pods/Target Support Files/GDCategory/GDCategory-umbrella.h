@@ -10,10 +10,12 @@
 #endif
 #endif
 
+#import "GDCategory.h"
 #import "NSString+ToObject.h"
 #import "UIView+BaseViewController.h"
 #import "UIView+Border.h"
 #import "UIView+CornerRadius.h"
+#import "UIView+GDRotate.h"
 #import "UIViewController+Utils.h"
 
 FOUNDATION_EXPORT double GDCategoryVersionNumber;

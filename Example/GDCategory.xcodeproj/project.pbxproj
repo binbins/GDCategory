@@ -251,7 +251,7 @@
 				ORGANIZATIONNAME = binbins;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = D8RZG7874F;
+						DevelopmentTeam = GVDX22PB3P;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -537,7 +537,7 @@
 			baseConfigurationReference = 482D93894097D629C330A410 /* Pods-GDCategory_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D8RZG7874F;
+				DEVELOPMENT_TEAM = GVDX22PB3P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDCategory/GDCategory-Prefix.pch";
 				INFOPLIST_FILE = "GDCategory/GDCategory-Info.plist";
@@ -554,7 +554,7 @@
 			baseConfigurationReference = BE26EFBC9336F98AFFC1EFC0 /* Pods-GDCategory_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = D8RZG7874F;
+				DEVELOPMENT_TEAM = GVDX22PB3P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDCategory/GDCategory-Prefix.pch";
 				INFOPLIST_FILE = "GDCategory/GDCategory-Info.plist";
